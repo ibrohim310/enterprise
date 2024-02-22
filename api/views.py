@@ -9,25 +9,6 @@ from rest_framework.decorators import api_view
 from django.contrib.auth import authenticate
 
 
-#@api_view(['GET'])
-#def list_products(request):
-#    products = models.Product.objects.all()
-#    serializer = serializers.ListProductSerializer(products, many=True)
-#    return Response(serializer.data)
-#
-#
-#@api_view(['GET'])
-#@authentication_classes([authentication.TokenAuthentication])
-#@permission_classes([IsAuthenticated])
-#def product_detail(request, slug):
-#    user = request.user
-#    product = models.Product.objects.get(slug=slug)
-#    image = models.ProductImage.objects.filter(product=product)
-#    serializer = serializers.DetailProductSerializer(product,image)
-#    return Response(serializer.data)
-
-#category
-
 
 #employee
 @api_view(['POST'])
